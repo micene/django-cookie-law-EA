@@ -33,12 +33,12 @@ for f in chain(*map(glob, package_data_globs)):
 
 setup(
     author='Europe Assistance',
-    #author_email='',
+    author_email='',
     name='django-cookie-law-EA',
     version='.'.join(str(v) for v in cookielaw.VERSION),
     description='Helps your Django project comply with EU cookie law regulations',
     long_description=open(os.path.join(os.path.dirname(__file__), 'README.rst')).read(),
-    #url='',
+    url='https://github.com/micene/django-cookie-law-EA',
     license='BSD License',
     platforms=['OS Independent'],
     classifiers=CLASSIFIERS,
