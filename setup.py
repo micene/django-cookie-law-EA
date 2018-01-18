@@ -37,7 +37,7 @@ setup(
     name='django-cookie-law-EA',
     version='.'.join(str(v) for v in cookielaw.VERSION),
     description='Helps your Django project comply with EU cookie law regulations',
-    long_description=open(os.path.join(os.path.dirname(__file__), 'README.rst')).read(),
+    #long_description=open(os.path.join(os.path.dirname(__file__), 'README.rst')).read(),
     url='https://github.com/micene/django-cookie-law-EA',
     license='BSD License',
     platforms=['OS Independent'],
